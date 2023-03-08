@@ -1,0 +1,19 @@
+*::-webkit-scrollbar {
+     width: 10px;  
+     height: 10px;             /* width of the entire scrollbar */
+}
+*::-webkit-scrollbar-track {
+     background: grey;        /* color of the tracking area */
+}
+*::-webkit-scrollbar-thumb {
+     background-color: white;   
+     border-radius: 12px;       /* roundness of the scroll thumb */
+     border: 1px solid black;  /* creates padding around scroll thumb */
+}
+
+body{overflow-y: hidden; overflow-x: hidden;}
+
+.hide{
+     overflow-y: hidden;
+     background-color: red;
+}
